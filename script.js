@@ -21,6 +21,7 @@ function generateFibonacci(num) {
       //storing the current element
       fibonacci.push(z);
     }
+    //returning the fibonaccie sequence
     return fibonacci;
 }
 
