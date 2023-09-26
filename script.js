@@ -9,6 +9,7 @@ function generateFibonacci(num) {
     var i = 0;
     const fibonacci = []; //list to store fibonacci sequence
 
+    //storing first two elements
     fibonacci.push(x);
     fibonacci.push(y);
 
@@ -21,10 +22,7 @@ function generateFibonacci(num) {
     }
     return fibonacci;
 }
- //var fib = document.getElementById("parameter").value;
- //sequence = fibonacci(fib);
 
-//console.log(sequence);
 var num = prompt("Enter number of terms");
 answer = generateFibonacci(num);
   
