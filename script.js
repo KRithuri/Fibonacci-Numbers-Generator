@@ -1,10 +1,10 @@
 
 
 function generateFibonacci(num) {
-    // y is representing the second term, and
+    
     // z is representing the sum of x and y.
     var x = 0; // first term,
-    var y = 1;
+    var y = 1; // second term
     var z;
     var i = 0;
     const fibonacci = [];
