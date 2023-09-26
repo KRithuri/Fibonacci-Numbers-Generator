@@ -28,5 +28,5 @@ function generateFibonacci(num) {
 var num = prompt("Enter number of terms");
 answer = generateFibonacci(num);
   
-console.log("The Fibonacci series up to the " + num + "th term is: " + answer); //display output to console
-document.getElementById("output").innerHTML = "The square root of " + num + " is  " + result;
+console.log("The Fibonacci series up to the ", num, "th term is: ", answer); //display output to console
+document.getElementById("output").innerHTML = "The Fibonacci series up to the " + num + "th term is: " + generateFibonacci(num);
