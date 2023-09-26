@@ -7,7 +7,7 @@ function generateFibonacci(num) {
     var y = 1; // second term
     var z; // the sum of x and y.
     var i = 0;
-    const fibonacci = [];
+    const fibonacci = []; //list to store fibonacci sequence
 
     fibonacci.push(x);
     fibonacci.push(y);
