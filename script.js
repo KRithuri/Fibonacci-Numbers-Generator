@@ -18,6 +18,7 @@ function generateFibonacci(num) {
       x = y;
       y = z;
 
+      //storing the current element
       fibonacci.push(z);
     }
     return fibonacci;
